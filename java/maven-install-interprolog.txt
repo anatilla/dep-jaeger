@@ -1,0 +1,2 @@
+mvn install:install-file -Dfile="interprolog.jar" -DgroupId="interprolog" -DartifactId="interprolog" -Dversion="2.2a4" -Dpackaging=jar -DgeneratePom=true
+ 
