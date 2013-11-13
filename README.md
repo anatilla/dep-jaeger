@@ -25,8 +25,8 @@ Java sources are available in folder 'java'.
 folder 'core' needs to exist in the same path of jarfile.
 
 in terminal, type:  
-	$ java -jar jaeger.jar <path-assoluto\\to\\yap>
 
+	$ java -jar jaeger.jar <path-assoluto\\to\\yap>
 
 Also, if your prefer console interaction, type:
 	
