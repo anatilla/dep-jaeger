@@ -3,7 +3,7 @@ dep-jaeger
 
 an internal/external dependency analyzer for software written in Prolog.
 
-This project was developed in the context of the Artificial Intelligence course, MSc in Computer Science, Università degli Studi di Bari 'Aldo Moro'.
+This project was developed in the context of the Artificial Intelligence course (taught by F. Esposito and S. Ferilli), MSc in Computer Science, Università degli Studi di Bari 'Aldo Moro'.
 
 Further info are available in the documentation (Italian Only).
 
