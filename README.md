@@ -13,6 +13,15 @@ Further info are available in the documentation (Italian Only).
 Nicola Alessandro Natilla - alessandro.natilla@gmail.com	
 Damiano Romita - d.romita@gmail.com
 
+## Dependencies
+
+Unix/Linux O.S.
+
+yap 6.2.2 - http://www.dcc.fc.up.pt/vsc/Yap/yap-6.2.2.tar.gz
+
+graphviz - http://www.graphviz.org
+
+
 ## Info
 
 
