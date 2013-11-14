@@ -5,9 +5,12 @@ An internal/external dependency analyzer for software written in Prolog, useful 
 
 Software's core is written in Prolog, while the GUI is implemented in Java.
 
-This project was developed in the context of the Artificial Intelligence course (taught by F. Esposito and S. Ferilli), MSc in Computer Science, Università degli Studi di Bari 'Aldo Moro'.
+This project was developed in the context of the Artificial Intelligence course (taught by <a href="http://lacam.di.uniba.it:8000/people/FlorianaEsposito.html"/>F. Esposito</a> and <a href="http://lacam.di.uniba.it:8000/~ferilli/ufficiale/ferilli.html"/>S. Ferilli</a>), MSc in Computer Science, Università degli Studi di Bari 'Aldo Moro'.
+
+Currently, dep-jaeger is able to run only on YAP. Future releases will aim to make it runnable on other Prolog interpreters.
 
 Further info are available in the documentation (Italian Only).
+
 
 ## Authors 
 
@@ -19,7 +22,7 @@ Damiano Romita - d.romita@gmail.com
 
 Unix/Linux O.S.
 
-yap 6.2.2 - http://www.dcc.fc.up.pt/vsc/Yap/yap-6.2.2.tar.gz
+YAP 6.2.2 - http://www.dcc.fc.up.pt/vsc/Yap/yap-6.2.2.tar.gz
 
 graphviz - http://www.graphviz.org
 
