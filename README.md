@@ -36,13 +36,13 @@ Java sources are available in folder 'java'.
 ## Run
 
 
-folder 'core' needs to exist in the same path of jarfile.
+First, rename folder 'prolog' in 'core'. This directory needs to be placed in the same path of jarfile.
 
-in terminal, type:  
+Then, in terminal, type:  
 
 	$ java -jar jaeger.jar <path-assoluto\\to\\yap>
 
-Also, if your prefer console interaction, type:
+Also if your prefer console interaction, type:
 	
 	$ cd //path//to//core//
 	$ yap
