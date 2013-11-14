@@ -1,7 +1,9 @@
 dep-jaeger
 =========
 
-an internal/external dependency analyzer for software written in Prolog.
+An internal/external dependency analyzer for software written in Prolog, useful for a quick overview about the internal structure.
+
+Software's core is written in Prolog, while the GUI is implemented in Java.
 
 This project was developed in the context of the Artificial Intelligence course (taught by F. Esposito and S. Ferilli), MSc in Computer Science, Università degli Studi di Bari 'Aldo Moro'.
 
