@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Dep-jaeger by anatilla</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Dep-jaeger</h1>
+        <p>an internal/external dependency analyzer for software written in Prolog</p>
+
+        <p class="view"><a href="https://github.com/anatilla/dep-jaeger">View the Project on GitHub <small>anatilla/dep-jaeger</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/anatilla/dep-jaeger/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/anatilla/dep-jaeger/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/anatilla/dep-jaeger">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="dep-jaeger" class="anchor" href="#dep-jaeger"><span class="octicon octicon-link"></span></a>dep-jaeger</h1>
+
+<p>An internal/external dependency analyzer for software written in Prolog, useful for a quick overview about the internal structure.</p>
+
+<p>Software's core is written in Prolog, while the GUI is implemented in Java.</p>
+
+<p>This project was developed in the context of the Artificial Intelligence course (taught by <a href="http://lacam.di.uniba.it:8000/people/FlorianaEsposito.html">F. Esposito</a> and <a href="http://lacam.di.uniba.it:8000/~ferilli/ufficiale/ferilli.html">S. Ferilli</a>), MSc in Computer Science, Università degli Studi di Bari 'Aldo Moro'.</p>
+
+<p>dep-jaeger is able to run only on YAP.</p>
+
+<p>Further info are available in the documentation (Italian Only).</p>
+
+<h2>
+<a name="authors" class="anchor" href="#authors"><span class="octicon octicon-link"></span></a>Authors</h2>
+
+<p>Nicola Alessandro Natilla - <a href="mailto:alessandro.natilla@gmail.com">alessandro.natilla@gmail.com</a><br>
+Damiano Romita - <a href="mailto:d.romita@gmail.com">d.romita@gmail.com</a></p>
+
+<h2>
+<a name="dependencies" class="anchor" href="#dependencies"><span class="octicon octicon-link"></span></a>Dependencies</h2>
+
+<p>Unix/Linux O.S.</p>
+
+<p>YAP 6.2.2 - <a href="http://www.dcc.fc.up.pt/vsc/Yap/yap-6.2.2.tar.gz">http://www.dcc.fc.up.pt/vsc/Yap/yap-6.2.2.tar.gz</a></p>
+
+<p>graphviz - <a href="http://www.graphviz.org">http://www.graphviz.org</a></p>
+
+<h2>
+<a name="info" class="anchor" href="#info"><span class="octicon octicon-link"></span></a>Info</h2>
+
+<p>Prolog sources are available both in folder 'prolog' and in folder named 'core' contained in 'dep-jaeger'. 
+Java sources are available in folder 'java'.</p>
+
+<h2>
+<a name="run" class="anchor" href="#run"><span class="octicon octicon-link"></span></a>Run</h2>
+
+<p>First, rename folder 'prolog' in 'core'. This directory needs to be placed in the same path of jarfile.</p>
+
+<p>Then, in terminal, type:  </p>
+
+<pre><code>$ java -jar jaeger.jar &lt;path-assoluto\\to\\yap&gt;
+</code></pre>
+
+<p>Also if your prefer console interaction, type:</p>
+
+<pre><code>$ cd //path//to//core//
+$ yap
+$ ['core'].
+$ help.
+</code></pre>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/anatilla">anatilla</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-44749750-2");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
