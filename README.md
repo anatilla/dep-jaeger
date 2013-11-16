@@ -11,6 +11,26 @@ dep-jaeger is able to run only on YAP.
 
 Further info are available in the documentation (Italian Only).
 
+## Features
+
+Given a predicate P declared in a module, dep-jaeger can obtain:
+- Status of the predicate (exported/not exported).
+- File in wich predicate P is contained.
+- Number of clauses that compose predicate P.
+- Modules used by P.
+- Predicates that uses P.
+- Predicates used by P.
+
+
+Given a module A, dep-jaeger can obtain:
+- Predicates exported by the module.
+- Module (system libraries or user-defined) imported by A.
+- Module imported and (un-)used by A.
+- File path of every import.
+- Potential name clash.
+- Real name clash.
+- Graphical representation of the internal structure of module A (requires graphviz).
+- Graphical representation of modules imported by the module A (requires graphviz).
 
 ## Authors 
 
