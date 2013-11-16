@@ -54,6 +54,30 @@
 
 <p>Further info are available in the documentation (Italian Only).</p>
 
+<h2><a><span ></span></a>Features</h2>
+
+<p>Given a predicate P declared in a module, dep-jaeger can obtain:</p>
+
+<ul>
+<li>Status of the predicate (exported/not exported).</li>
+<li>File in wich predicate P is contained.</li>
+<li>Number of clauses that compose predicate P.</li>
+<li>Modules used by P.</li>
+<li>Predicates that uses P.</li>
+<li>Predicates used by P.</li>
+</ul><p>Given a module A, dep-jaeger can obtain:</p>
+
+<ul>
+<li>Predicates exported by the module.</li>
+<li>Module (system libraries or user-defined) imported by A.</li>
+<li>Module imported and (un-)used by A.</li>
+<li>File path of every import.</li>
+<li>Potential name clash.</li>
+<li>Real name clash.</li>
+<li>Graphical representation of the internal structure of module A (requires graphviz).</li>
+<li>Graphical representation of modules imported by the module A (requires graphviz).</li>
+</ul><h2>
+
 <h2>
 <a name="authors" class="anchor" href="#authors"><span class="octicon octicon-link"></span></a>Authors</h2>
 
